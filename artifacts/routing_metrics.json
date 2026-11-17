@@ -1,0 +1,31 @@
+{
+  "data_source": "synthetic_seed_42_test_interval_only",
+  "scope": "simulation_no_packet_level_network_emulator",
+  "note": "Each interval has a fresh demand allocation. Background loads are exogenous, shared undirected link capacities. Not a proof of real network gains.",
+  "results": {
+    "shortest_latency": {
+      "admitted": 106,
+      "opportunities": 106,
+      "admission_rate": 1.0,
+      "admitted_intervals_exceeding_90pct": 7,
+      "violation_rate_of_admitted": 0.0660377358490566,
+      "route_switches": 0
+    },
+    "persistence": {
+      "admitted": 106,
+      "opportunities": 106,
+      "admission_rate": 1.0,
+      "admitted_intervals_exceeding_90pct": 9,
+      "violation_rate_of_admitted": 0.08490566037735849,
+      "route_switches": 4
+    },
+    "graph_tcn": {
+      "admitted": 105,
+      "opportunities": 106,
+      "admission_rate": 0.9905660377358491,
+      "admitted_intervals_exceeding_90pct": 2,
+      "violation_rate_of_admitted": 0.01904761904761905,
+      "route_switches": 10
+    }
+  }
+}

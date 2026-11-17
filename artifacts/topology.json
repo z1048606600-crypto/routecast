@@ -1,0 +1,65 @@
+[
+  {
+    "id": "r1-r2",
+    "source": "r1",
+    "target": "r2",
+    "capacity_mbps": 100.0,
+    "latency_ms": 2.0
+  },
+  {
+    "id": "r1-r3",
+    "source": "r1",
+    "target": "r3",
+    "capacity_mbps": 100.0,
+    "latency_ms": 3.0
+  },
+  {
+    "id": "r2-r3",
+    "source": "r2",
+    "target": "r3",
+    "capacity_mbps": 100.0,
+    "latency_ms": 4.0
+  },
+  {
+    "id": "r2-r4",
+    "source": "r2",
+    "target": "r4",
+    "capacity_mbps": 100.0,
+    "latency_ms": 5.0
+  },
+  {
+    "id": "r3-r4",
+    "source": "r3",
+    "target": "r4",
+    "capacity_mbps": 100.0,
+    "latency_ms": 2.0
+  },
+  {
+    "id": "r3-r5",
+    "source": "r3",
+    "target": "r5",
+    "capacity_mbps": 100.0,
+    "latency_ms": 3.0
+  },
+  {
+    "id": "r4-r5",
+    "source": "r4",
+    "target": "r5",
+    "capacity_mbps": 100.0,
+    "latency_ms": 4.0
+  },
+  {
+    "id": "r4-r6",
+    "source": "r4",
+    "target": "r6",
+    "capacity_mbps": 100.0,
+    "latency_ms": 5.0
+  },
+  {
+    "id": "r5-r6",
+    "source": "r5",
+    "target": "r6",
+    "capacity_mbps": 100.0,
+    "latency_ms": 2.0
+  }
+]

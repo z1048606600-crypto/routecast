@@ -1,0 +1,9 @@
+{
+  "opset": 17,
+  "max_absolute_error": 4.76837158203125e-07,
+  "tested_batch_sizes": [
+    1,
+    4
+  ],
+  "input": "standardized utilization; apply mean/std from preprocessing.json before/after inference"
+}
